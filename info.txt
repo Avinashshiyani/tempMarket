@@ -1,0 +1,23 @@
+Project Name = tempMarket
+
+objective = This project is made for selling web templates which are used for making website.
+
+info from web ==
+
+=> Basic to advanced templates
+
+=> Basic
+1.https://themewagon.github.io/EdgeCut/
+2.https://mobirise.com/extensions/influencerm5/tik-tok-influencer/
+3.https://marketplace.webcanopystudio.com/studiocanvas/home
+
+=> Intermediate
+
+1.https://mobirise.com/extensions/petsm4/school/
+2.https://mobirise.com/extensions/programm5/software-development-company/
+3.https://byte-template.webflow.io/#work
+
+=> Advance(eg.animated websites)
+1.https://www.waze.com/waze
+2.https://falina-template.webflow.io
+3.https://arzac.webflow.io/
