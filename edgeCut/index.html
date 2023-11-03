@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<style>
-    * {
-        font-family: 'Poppins', sans-serif;
-    }
-</style>
-
 <body>
 
 
@@ -321,9 +320,85 @@
         </div>
         <!-- latest blog section ends -->
 
+        <!-- testimonial starts -->
+        <div class="grid ">
+            <div class="flex justify-center items-center uppercase text-[32px] font-bold pt-[80px] pb-[40px]">
+                <span>testimonial</span>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide grid justify-center items-center place-items-center  shadow-2xl">
+                        <div
+                            class="h-[175px] w-[175px]  overflow-hidden border-[10px] rounded-full border-[#6bb7be] my-[36px]">
+                            <img src="./assets/images/client.jpg" alt="">
+                        </div>
+                        <div class="flex justify-center items-center ">
+                            <span class="h-[16px] w-[16px]"><i class="fa-solid fa-quote-left"></i></span>
+                        </div>
+                        <div class="flex justify-center items-center px-[26px] text-[16px] pt-[14px] pb-[40px]">
+                            <span>
+                                It is a long established fact that a reader will be
+                                distracted by the readable cIt is a long established fact
+                                that a reader will be distracted by the readable c
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 2nd -->
+
+                    <div class="swiper-slide grid justify-center items-center place-items-center shadow-2xl">
+                        <div
+                            class="h-[175px] w-[175px] bg-red-300 overflow-hidden border-[10px] rounded-full border-[#6bb7be] my-[36px]">
+                            <img src="./assets/images/client.jpg" alt="">
+                        </div>
+                        <div class="flex justify-center items-center ">
+                            <span class="h-[16px] w-[16px]"><i class="fa-solid fa-quote-left"></i></span>
+                        </div>
+                        <div class="flex justify-center items-center px-[26px] text-[16px] pt-[14px] pb-[40px]">
+                            <span>
+                                It is a long established fact that a reader will be
+                                distracted by the readable cIt is a long established fact
+                                that a reader will be distracted by the readable c
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide grid justify-center items-center place-items-center shadow-2xl">
+                        <div
+                            class="h-[175px] w-[175px] bg-red-300 overflow-hidden border-[10px] rounded-full border-[#6bb7be] my-[36px]">
+                            <img src="./assets/images/client.jpg" alt="">
+                        </div>
+                        <div class="flex justify-center items-center ">
+                            <span class="h-[16px] w-[16px]"><i class="fa-solid fa-quote-left"></i></span>
+                        </div>
+                        <div class="flex justify-center items-center px-[26px] text-[16px] pt-[14px] pb-[40px]">
+                            <span>
+                                It is a long established fact that a reader will be
+                                distracted by the readable cIt is a long established fact
+                                that a reader will be distracted by the readable c
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex  justify-center items-center space-x-2 mt-[30px]">
+                <div class="flex justify-center items-center h-[45px] w-[45px] bg-[#6bb7be] text-white rounded-full left-swipe">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="flex justify-center items-center h-[45px] w-[45px] bg-[#6bb7be] text-white rounded-full right-swipe">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial ends -->
+
+        <!-- contact us start -->
+
     </div>
 
-
+    <!-- swiper js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
