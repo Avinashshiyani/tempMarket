@@ -13,4 +13,9 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".right-swipe",
         prevEl: ".left-swipe",
     },
+    breakpoints: {
+        640:{
+            spaceBetween:120,
+        }
+    }
 });
