@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>EdgeCut</title>
+    <link rel="icon" href="./assets/images/f6.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class="grid p-[10px] px-[16px] sm:px-[36px] md:px-[46px]">
+        <!-- navigation menu -->
+        <div class="flex justify-between items-center ">
+            <div class="flex justify-center items-center uppercase font-bold text-[24px]">edgecut</div>
+            <div class="flex">
+                <div
+                    class="flex justify-between items-center space-x-12 pr-[30px] uppercase text-[16px] hidden lg:block">
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">about</a>
+                    <a href="./furniture.html">Furniture</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="./contact.html">Contact US</a>
+                    <a href="#">Login <span><i class="fa-solid fa-user"></i></span></a>
+                    <a href=""><span><i class="fa-solid fa-search"></i></span></a>
+                </div>
+            </div>
+            <div class="grid space-y-[6px] justify-center items-center lg:hidden hamburger transition duration-[0.3s]">
+                <span class="h-[4px] bg-black w-[34px] rounded-full"></span>
+                <span class="h-[4px] bg-black w-[34px] rounded-full"></span>
+                <span class="h-[4px] bg-black w-[34px] rounded-full"></span>
+            </div>
+        </div>
+        <!-- navigation menu over -->
+
+<!-- hamburger start  -->
+        <div class="grid justify-center items-center fronthamburger h-[2px] ">
+            <div class="grid justify-center items-center space-y-8 py-[20px] text-center  text-[16px] uppercase  transition duration-[0.3s] ">
+                <a href="./index.html">Home</a>
+                    <a href="./about.html">about</a>
+                    <a href="./furniture.html">Furniture</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="./contact.html">Contact US</a>
+                    <a href="">Login <span><i class="fa-solid fa-user"></i></span></a>
+                    <a href=""><span><i class="fa-solid fa-search"></i></span></a>
+            </div>
+        </div>
+<!-- hamburger end -->
+
+        
+        <!-- latest blog section starts -->
+        <div class="grid bg-white">
+            <div class="flex justify-center items-center text-[32px] uppercase font-bold pt-[40px] pb-[45px]">
+                <span>latest blog</span>
+            </div>
+            <div class="grid space-y-[60px] sm:grid-cols-2 sm:space-y-0 sm:gap-8 sm:gap-y-[50px] lg:grid-cols-3">
+                <!-- 1st blog -->
+                <div class="grid justify-center items-center shadow-md">
+                    <div class="flexjustify-center  items-center">
+                        <img src="./assets/images/b1.jpg" alt="" class="w-full">
+                    </div>
+                    <div class="grid justify-center  text-start items-center   px-[26px]">
+                        <span class="leading-[24px] font-bold text-[20px] pt-[28px]">
+                            Look even slightly believable. If you are true lover
+                        </span>
+                        <span class="pt-[8px] text-[15px]">
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable.
+                        </span>
+                        <div class="flex justify-start items-center py-[20px]">
+                            <button
+                                class="bg-[#6bb7be] flex text-white justify-center transition duration-[0.3s] items-center h-[46px] w-[146px] hover:bg-white hover:text-[#6bb7be] hover:border-[1px] hover:border-[#6bb7be]">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd blog -->
+                <div class="grid justify-center items-center shadow-md">
+                    <div class="flex justify-center  items-center">
+                        <img src="./assets/images/b2.jpg" alt="" class="w-full">
+                    </div>
+                    <div class="grid justify-center  text-start items-center   px-[26px]">
+                        <span class="leading-[24px] font-bold text-[20px] pt-[28px]">
+                            Anything embarrassing hidden in the middle
+                        </span>
+                        <span class="pt-[8px] text-[15px]">
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable.
+                        </span>
+                        <div class="flex justify-start items-center py-[20px]">
+                            <button
+                                class="bg-[#6bb7be] flex text-white justify-center transition duration-[0.3s] items-center h-[46px] w-[146px] hover:bg-white hover:text-[#6bb7be] hover:border-[1px] hover:border-[#6bb7be]">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd blog -->
+                <div class="grid justify-center items-center shadow-md">
+                    <div class="flexjustify-center  items-center">
+                        <img src="./assets/images/b3.jpg" alt="" class="w-full">
+                    </div>
+                    <div class="grid justify-center  text-start items-center   px-[26px]">
+                        <span class="leading-[24px] font-bold text-[20px] pt-[28px]">
+                            Molestias magni natus dolores odio commodi. Quaerat!
+                        </span>
+                        <span class="pt-[8px] text-[15px]">
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable.
+                        </span>
+                        <div class="flex justify-start items-center py-[20px]">
+                            <button
+                                class="bg-[#6bb7be] flex text-white justify-center transition duration-[0.3s] items-center h-[46px] w-[146px] hover:bg-white hover:text-[#6bb7be] hover:border-[1px] hover:border-[#6bb7be]">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- latest blog section ends -->
+
+
+        <!-- footer starts -->
+        <div class="grid pt-[60px]">
+            <div class="grid justify-center items-center bg-[#191e1f] py-[60px] space-y-6">
+                <div class="grid  lg:w-full lg:flex  lg:justify-between lg:px-[60px] ">
+                    <div class="grid justify-center text-center items-center text-white  space-y-1">
+                        <span><i class="fa-solid fa-phone fa-xl"></i></span>
+                        <span class="text-[16px]">
+                            Call : +01 123455678990
+                        </span>
+                    </div>
+                    <div class="grid justify-center text-center items-center text-white  space-y-1">
+                        <span><i class="fa-solid fa-envelope fa-xl"></i></span>
+                        <span class="text-[16px]">
+                            Email : demo@gmail.com
+                        </span>
+                    </div>
+                    <div class="grid justify-center text-center items-center text-white  space-y-1">
+                        <span><i class="fa-solid fa-location fa-xl"></i></span>
+                        <span class="text-[16px]">
+                            India
+                        </span>
+                    </div>
+                </div>
+
+                <!-- links -->
+                <div
+                    class="grid justify-center items-center text-white pt-[30px] sm:flex sm:p-0 sm:items-start sm:pt-[30px]">
+                    <div class="sm:w-1/3">
+                        <div class="grid justify-center items-center">
+                            <span class=" text-[24px] sm:text-center">
+                                QUICK LINKS
+                            </span>
+                        </div>
+                        <div class="grid justify-center text-center items-center pt-[30px]">
+                            <a href="./index.html">Home</a>
+                            <a href="./about.html">About</a>
+                            <a href="./furniture.html">Furniture</a>
+                            <a href="./blog.html">Blog</a>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                    <!-- instagram feed -->
+                    <div class="grid justify-center items-center sm:w-1/3">
+                        <div class="grid justify-center items-center text-white py-[12px] sm:p-0">
+                            <span class="text-[20px] uppercase">
+                                Instagram Feeds
+                            </span>
+                        </div>
+                        <div class="flex justify-center items-center flex-wrap px-[36px]  gap-[10px] sm:pt-[12px]">
+                            <div class="grid justify-center items-center w-[65px] h-[65px] bg-white p-2.5">
+                                <img src="./assets/images/f1.png" alt="">
+                            </div>
+                            <div class="grid justify-center items-center w-[65px] h-[65px] bg-white p-2.5">
+                                <img src="./assets/images/f2.png" alt="">
+                            </div>
+                            <div class="grid justify-center items-center w-[65px] h-[65px] bg-white p-2.5">
+                                <img src="./assets/images/f3.png" alt="">
+                            </div>
+                            <div class="grid justify-center items-center w-[65px] h-[65px] bg-white p-2.5">
+                                <img src="./assets/images/f4.png" alt="">
+                            </div>
+                            <div class="grid justify-center items-center w-[65px] h-[65px] bg-white p-2.5">
+                                <img src="./assets/images/f5.png" alt="">
+                            </div>
+                            <div class="grid justify-center items-center w-[65px] h-[65px] bg-white p-2.5">
+                                <img src="./assets/images/f6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- news letter -->
+                    <div class="grid justify-center items-center pb-[20px] sm:w-1/3">
+                        <div class="grid justify-center items-center text-center text-white py-[12px] sm:p-0">
+                            <span class="text-[24px] px-[36px]">
+                                SIGN UP TO OUR NEWSLETTER
+                            </span>
+                        </div>
+                        <div class="grid px-[34px]  items-center sm:pt-[24px]">
+                            <input type="text" placeholder="Enter Your Email"
+                                class="bg-[##eaeaea] h-[45px] placeholder:pl-[20px]">
+                        </div>
+                        <div class="flex justify-center  items-center  text-white pt-[14px]">
+                            <button
+                                class="bg-[#6bb7be] flex justify-center transition duration-[0.3s] items-center h-[46px] w-[170px] hover:bg-[#191e1f] hover:text-[#6bb7be] hover:border-[1px] hover:border-[#6bb7be]">Subscribe</button>
+                        </div>
+                        <div class="flex justify-center items-center space-x-4 pt-[26px]  sm:space-x-2">
+                            <div
+                                class="flex justify-center items-center h-[45px] w-[45px] border-[1px] border-[#6bb7be] text-[#6bb7be] rounded-md hover:text-[#f89646] hover:border-[#f89646]">
+                                <span><i class="fa-brands fa-facebook-f "></i></span>
+                            </div>
+                            <div
+                                class="flex justify-center items-center h-[45px] w-[45px] border-[1px] border-[#6bb7be] text-[#6bb7be] rounded-md hover:text-[#f89646] hover:border-[#f89646]">
+                                <span><i class="fa-brands fa-twitter "></i></span>
+                            </div>
+                            <div
+                                class="flex justify-center items-center h-[45px] w-[45px] border-[1px] border-[#6bb7be] text-[#6bb7be] rounded-md hover:text-[#f89646] hover:border-[#f89646]">
+                                <span><i class="fa-brands fa-linkedin "></i></span>
+                            </div>
+                            <div
+                                class="flex justify-center items-center h-[45px] w-[45px] border-[1px] border-[#6bb7be] text-[#6bb7be] rounded-md hover:text-[#f89646] hover:border-[#f89646]">
+                                <span><i class="fa-brands fa-instagram "></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer ends -->
+
+        <!-- disclaimer section starts -->
+        <div class="flex items-center py-[22px] sm:justify-center">
+            <div class="flex text-center">
+                <span> © 2023 All Rights Reserved By
+                    Free Html Templates Distribution TempMarket
+                </span>
+            </div>
+        </div>
+        <!-- disclaimer section ends -->
+    </div>
+    <!-- swiper js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

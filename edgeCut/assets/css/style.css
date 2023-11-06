@@ -29,3 +29,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+.rotateham{
+    transition: 0.3s;
+   transform: rotate(360deg);
+}
+.fronthamburger{
+    transition: 0.3s;
+}
+.bringmenu{
+    transition: 0.3s ;
+   opacity: 1;
+   height: 400px !important;
+}
