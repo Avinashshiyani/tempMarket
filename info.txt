@@ -7,7 +7,7 @@ info from web ==
 => Basic to advanced templates
 
 => Basic
-1.https://themewagon.github.io/EdgeCut/
+1.https://themewagon.github.io/EdgeCut/ 
 2.https://mobirise.com/extensions/influencerm5/tik-tok-influencer/
 3.https://marketplace.webcanopystudio.com/studiocanvas/home
 
@@ -23,4 +23,9 @@ info from web ==
 3.https://arzac.webflow.io/
 4.https://field-template.webflow.io/
 
-comming soon
+
+
+
+
+Done :
+1.https://themewagon.github.io/EdgeCut/ 
