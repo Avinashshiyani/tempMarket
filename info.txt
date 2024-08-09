@@ -23,6 +23,9 @@ info from web ==
 3.https://arzac.webflow.io/
 4.https://field-template.webflow.io/
 
+=> react Dashboards
+1. https://www.figma.com/design/okO01MLrlDeWbO7bzkhLoZ/Finebank---Financial-Management-Dashboard-UI-Kits-(Community)?node-id=66-4728&t=zKGxAJOFymNDVHUk-0
+
 
 
 
