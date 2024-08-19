@@ -1,6 +1,6 @@
 import React from "react";
 import MainTitleImage from "../assets/FINEbank.IO.png";
-
+import { twMerge } from "tailwind-merge";
 // main title component
 const MainTitle = () => {
   return (
@@ -10,4 +10,15 @@ const MainTitle = () => {
   );
 };
 
-export { MainTitle };
+// text main primary component
+const Text = ({ children, className, bold  }) => {
+  const applyBold =
+    (bold === "bold" && "font-bold") || (bold === "semi" && "font-semibold");
+  return (
+    <span className={twMerge("text-primary", className, applyBold)}>
+      {children}
+    </span>
+  );
+};
+
+export { MainTitle, Text };
