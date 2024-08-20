@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontSize: {
-        primary: "18px",
+        16: "18px",
+        22: "22px",
       },
     },
   },

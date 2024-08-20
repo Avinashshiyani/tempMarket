@@ -5,7 +5,9 @@ const App = () => {
   return (
     <div className="">
       <MainTitle />
-      <Text>Hello world</Text>
+      <Text type="semi" text={16}>
+        Hello world
+      </Text>
     </div>
   );
 };
