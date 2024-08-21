@@ -11,28 +11,14 @@ const MainTitle = () => {
 };
 
 // text main primary component
-const Text = ({ children, className, type, text }) => {
-  const applyBold =
-    (type === "bold" && "font-bold") || (type === "semi" && "font-semibold");
-
-  let fontStyle = "";
-  const fontManager = () => {
-    switch (text) {
-      case 16:
-        fontStyle = "text-16";
-        break;
-      case 22:
-        fontStyle = "text-22";
-        break;
-      default:
-        fontStyle = "";
-    }
-    return fontStyle;
-  };
-  fontManager();
-
+const Text = ({ children, className, text = 16, type = "normal" }) => {
+  const textType = (text == 22 && "text-22") || (text == 14 && "text-14");
+  const fontType =
+    (type == "bold" && "font-bold") ||
+    (type == "semi" && "font-semibold") ||
+    (type == "light" && "font-light");
   return (
-    <span className={twMerge("text-primary", className, applyBold, fontStyle)}>
+    <span className={twMerge("text-primary", textType, fontType, className)}>
       {children}
     </span>
   );

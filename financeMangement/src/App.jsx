@@ -1,14 +1,15 @@
 import React from "react";
-import { MainTitle, Text } from "./Components/Components";
+// import { MainTitle, Text } from "./Components/Components";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./Pages/Login";
 
 const App = () => {
   return (
-    <div className="">
-      <MainTitle />
-      <Text type="semi" text={16}>
-        Hello world
-      </Text>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />}></Route>
+      </Routes>
+    </Router>
   );
 };
 
