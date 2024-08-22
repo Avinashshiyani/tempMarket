@@ -8,6 +8,9 @@ export default {
         16: "18px",
         22: "22px",
       },
+      colors: {
+        green: "#299D91",
+      },
     },
   },
   plugins: [],
