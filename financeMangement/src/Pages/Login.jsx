@@ -1,5 +1,5 @@
 import React from "react";
-import { MainTitle, Text } from "../Components/Components.jsx";
+import { Button, MainTitle, Text } from "../Components/Components.jsx";
 
 const Login = () => {
   return (
@@ -15,7 +15,12 @@ const Login = () => {
           <Text text={14} type="thin">
             or sign in with
           </Text>
-          <Text type="semi" className="text-green">Create an account</Text>
+          <Text type="semi" className="text-green">
+            Create an account
+          </Text>
+          <Button type="semi" font={14} className="">
+            Hello world
+          </Button>
         </div>
       </div>
     </div>
